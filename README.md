@@ -13,8 +13,7 @@ The commandline options are overruling the configfile settings. So first the con
   &nbsp; -db="": The database name to connect to. <br>
   &nbsp; -ini="$HOME/.sitemapms.ini": The configfile to read parameters from. <br>
   &nbsp; -password="": The database users password. <br>
-  &nbsp; -path="./sitemap.xml": The fully qualified pathname to the sitemap incl. 
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; filename (e.g.'/var/www/sitemap.xml'). <br>
+  &nbsp; -path="./sitemap.xml": The fully qualified pathname to the sitemap incl. filename (e.g.'/var/www/sitemap.xml'). <br>
   &nbsp; -url="": The baseurl of the website (e.g. http://www.google.com) <br>
   &nbsp; -user="": The database user to use for the db connection. <br>
 
