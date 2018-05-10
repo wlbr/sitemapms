@@ -141,7 +141,7 @@ func main() {
 	}
 	defer db.Close()
 
-	rows, err := db.Query("select content_name, hierarchy_path, modified_date from cms_content where type = 'content';")
+	rows, err := db.Query("select content_name, hierarchy_path, modified_date from cms_content where type = 'content' and active = 1;")
 	if err != nil {
 		log.Fatal(err)
 	}
